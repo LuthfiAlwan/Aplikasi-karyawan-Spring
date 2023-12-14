@@ -1,0 +1,22 @@
+/* Gunakan CSS untuk menyesuaikan tampilan sesuai keinginan */
+
+/* Style untuk header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style untuk form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style untuk tabel */
+.table {
+    width: 100%;
+}
+
+/* Style untuk tombol pada tabel */
+.btn {
+    margin-right: 5px;
+}

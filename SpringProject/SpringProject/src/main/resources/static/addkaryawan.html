@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Tambah Data Karyawan</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Tambah Data Karyawan</h2>
+<form id="employeeForm">
+    <label for="nik">NIK:</label><br>
+    <input type="text" id="nik" name="nik"><br><br>
+
+    <label for="nama">Nama Lengkap:</label><br>
+    <input type="text" id="nama" name="nama"><br><br>
+
+    <label>Jenis Kelamin:</label><br>
+    <input type="radio" id="laki" name="gender" value="Laki-laki">
+    <label for="laki">Laki-laki</label><br>
+    <input type="radio" id="perempuan" name="gender" value="Perempuan">
+    <label for="perempuan">Perempuan</label><br><br>
+
+    <label for="birthdate">Tanggal Lahir:</label><br>
+    <input type="date" id="birthdate" name="birthdate"><br><br>
+
+    <label for="alamat">Alamat:</label><br>
+    <textarea id="alamat" name="alamat"></textarea><br><br>
+
+    <label for="negara">Negara:</label><br>
+    <select id="negara" name="negara">
+        <option value="Indonesia">Indonesia</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Rusia">Rusia</option>
+    </select><br><br>
+
+    <a type="submit" value="Tambah Data" class="btn btn-primary">Tambah Data</a>
+    <a href="index.html" class="btn btn-primary">Kembali</a>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>

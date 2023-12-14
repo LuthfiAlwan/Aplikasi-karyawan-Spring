@@ -1,0 +1,21 @@
+/* style.css */
+
+/* Gaya untuk kolom Action */
+#dataKaryawan td:nth-child(7) a {
+  margin-right: 5px;
+  color: white;
+  padding: 3px 8px;
+  text-decoration: none;
+}
+
+.detail {
+  background-color: #007bff; /* Warna latar belakang untuk Detail */
+}
+
+.edit {
+  background-color: #28a745; /* Warna latar belakang untuk Edit */
+}
+
+.hapus {
+  background-color: #dc3545; /* Warna latar belakang untuk Hapus */
+}

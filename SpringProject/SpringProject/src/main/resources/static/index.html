@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aplikasi Data Pribadi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Atau gunakan referensi CSS lokal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container mt-4">
+    <h1>Aplikasi Data Pribadi</h1>
+    <hr>
+
+    <!-- Form untuk menambah data -->
+    <form id="formPersonalData">
+        <div class="form-group">
+            <label for="nik">NIK:</label>
+            <input type="text" class="form-control" id="nik" name="nik" >
+        </div>
+
+        <div class="form-group">
+            <label for="name">Nama:</label>
+            <input type="text" class="form-control" id="name" name="name" >
+        </div>
+
+        <!-- Tambahkan field lainnya sesuai kebutuhan -->
+
+        <a href="addkaryawan.html" class="btn btn-primary">Add</a>
+
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+
+    <hr>
+
+    <!-- Tabel untuk menampilkan data -->
+    <h2>Data Personal</h2>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>NIK</th>
+            <th>Nama Lengkap</th>
+            <th>Umur</th>
+            <th>Tanggal Lahir</th>
+            <th>Jenis Kelamin</th>
+            <th>Alamat</th>
+            <th>Negara</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody id="dataKaryawan">
+        <!-- Data akan ditampilkan di sini -->
+        </tbody>
+    </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="script.js"></script>
+<!-- Atau gunakan referensi JavaScript lainnya -->
+</body>
+</html>
